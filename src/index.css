@@ -10,4 +10,9 @@
     font-family: 'Raleway', sans-serif;
   }
 }
+@layer components{
+  .bg-for-components{
+    @apply bg-gradient-to-b from-black via-black to-gray-800
+  }
+}
 
