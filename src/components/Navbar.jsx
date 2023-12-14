@@ -38,7 +38,7 @@ const Navbar = () => {
         <ul className='hidden sm:flex'>
             {
                 links.map(({id,link})=>(
-                    <li key={id} className='px-4 capitalize font-medium text-slate-500 cursor-pointer hover:scale-110 duration-200'>{link}</li>
+                    <li key={id} className='px-4 capitalize font-medium text-slate-300 cursor-pointer hover:scale-110 duration-200'>{link}</li>
                 ))
             }
         </ul>
